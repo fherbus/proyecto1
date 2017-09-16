@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset=utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Hoja de vida digital</title>
+</head>
+<body>
+	<header>
+		<svg width="70" height=70" viewBox="0 0 70 70">
+			<image xlink:href="img/logo.svg" width="80px" height="80px"></image>
+		</svg>
+		<h1>Hoja de Vida</h1>
+		<h2>Fernando Bustos</h2>
+		<a href="index.html">Inicio</a> |
+		<a href="educacion.html">Educación</a> |
+		<a href="experiencia.html">Experiencia</a>
+	</header>
+	<h3>Educación:</h3>
+	<table border="1">
+		<thead>
+			<tr>
+				<th>Año</th>
+				<th>Institución</th>
+				<th>Lugar</th>
+				<th>¿Culminó?</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1996</td>
+				<td>"9 de Julio"</td>
+				<td>Cayambe</td>
+				<td>Si</td>
+			</tr>
+			<tr>
+				<td>2002</td>
+				<td>"Nelson I. Torres"</td>
+				<td>Cayambe</td>
+				<td>Si</td>
+			</tr>
+		</tbody>
+	</table>
+	<h3>Agregar Estudios:</h3>
+	<form autocomplete="on" name="Formulario Estudios">
+		<label for="Año"><b>Año: </b></label>
+			<select>
+				<option>2015</option>
+				<option>2016</option>
+				<option>2017</option>
+			</select>
+		<p><label for="Institucion"><b>Institución:</b></label>
+			<input type="text" name="" value="" required>
+		</p>
+		<p><b>Lugar:</b> <textarea name="area_texto" rows="5" cols="40"></textarea></p>
+		<p><b><label for="Culmino">¿Culminó?: </label></b>
+			<input type="radio" name="Culmino" value="si">Si
+			<input type="radio" name="Culmino" value="no">No
+		</p>
+		<p><input type="submit" name="" value="Enviar"></p>
+	</form>
+	<footer>
+		<strong>@Derechos Reservados</strong>
+		</br><strong>e-mail:</strong> fherbus@hotmail.com
+		</br><strong>Teléfono:</strong> 0988236278
+		</br><strong>Cayambe - Ecuador
+	</footer>
+</body>
+</html>
